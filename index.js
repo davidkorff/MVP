@@ -26,7 +26,7 @@ function click(marker) {
     }
   console.log('click')
   var infowindow = new google.maps.InfoWindow({
-    content:  `Website: <a href=${marker.website}>
+    content:  `<h1>Website: <a href=${marker.website}></h1>
       ${marker.website}</a> `
   });
   infowindow.open(map, marker);
